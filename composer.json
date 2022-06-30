@@ -1,0 +1,15 @@
+{
+        "name":"ophanim/aluguel-agendamento",
+        "autoload":{
+                "psr-4":{
+                        "App\\":"includes/classes/"
+                }
+        },
+        "require": {
+                "dompdf/dompdf": "^1.1",
+                "phpmailer/phpmailer": "^6.5",
+                "phpoffice/phpspreadsheet": "^1.20",
+                "smalot/pdfparser": "^2.0",
+                "guzzlehttp/guzzle": "^7.4"
+        }
+}
